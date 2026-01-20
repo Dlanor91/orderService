@@ -1,0 +1,55 @@
+# ============================================
+# PROYECTO Order Service
+# Backend: Java 17 + Spring Boot + Maven 3.5.9
+# IDEs: VSCode, IntelliJ, STS
+# ============================================
+
+# ARCHIVOS GENERALES
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# JAVA / SPRING BOOT (APIs/)
+**/target/
+**/logs/
+**/.mvn/
+**/.classpath
+**/.project
+**/.settings/
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+**/build/
+**/.gradle/
+
+# Maven wrapper
+**/mvnw
+**/mvnw.cmd
+**/mvnw.bat
+**/mvnw.ksh
+
+# Excluir binario
+**/.mvn/wrapper/maven-wrapper.jar
+
+# EXCEPCIONES
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDEs
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Documentos temporales o autogenerados
+HELP.md
+README.md~
